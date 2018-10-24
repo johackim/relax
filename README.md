@@ -1,17 +1,22 @@
 # Relax
 
-> Gestion de file d'attente client pour auto-entrepreneurs.
+> Service d'auto-gestion clientèle pour auto-entrepreneurs
+
+## Fonctionnalités
+
+- Affichez un suivie en temps réel de vos prestations pour vous et vos clients
+- Notifiez automatiquement vos clients de l'état d'avancement de vos prestations
+- Un simple lien d'accès à insérer dans votre devis
+- Recevez automatiquement des avis sur votre travail
 
 ## Avantages
 
+- Ne soyez plus stressé par les relances clients
 - Augmentez la satisfaction de vos clients
 - Améliorez votre productivité
-- Ne soyez plus stressé par les relances clients
 - Gagner du temps
 - Rassurez vos clients
-- Notifiez automatiquement vos clients de l'état d'avancement de vos prestations
-- Un simple lien à insérer dans votre devis
-- Recevez des avis sur votre travail
+<!-- - Le meilleur moyen pour éviter les relances clients -->
 
 And relax!
 
