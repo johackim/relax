@@ -2,3 +2,4 @@ nodes_modules
 package-lock.json
 dist
 build
+.git

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    image: ston3o/relax:latest
+    ports:
+      - 1337:1337
+    environment:
+      DATABASE_HOST: mongo
+      DATABASE_NAME: relax
+
+  mongo:
+    image: mongo:4.1

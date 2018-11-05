@@ -23,7 +23,7 @@ And relax!
 ## Installation
 
 ```bash
-docker run --name relax -p 1337:1337 ston3o/relax
+docker-compose up
 ```
 
 ## Run Relax locally
@@ -38,10 +38,13 @@ cd relax
 # Install dependencies
 npm install
 
+# Run mongodb
+docker run -d --name mongo --restart=always -p 27017:27017 mongo
+
 # Run the app
 npm start
 
-# Go to http://localhost:3000
+# Go to http://localhost:1337
 ```
 
 ## Support

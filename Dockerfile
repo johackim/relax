@@ -8,11 +8,13 @@ WORKDIR /app
 
 COPY . /app
 
-RUN rm -rf node_modules && yarn install
+RUN npm install && npm rebuild node-sass
 
 RUN npm run build
 
-RUN rm -rf node_modules && npm i --prod
+RUN cd src/strapi && yarn install
+
+# RUN rm -rf node_modules && npm i --prod
 
 # Production
 
@@ -26,4 +28,4 @@ ENV NODE_ENV=production
 
 CMD ["npm", "start"]
 
-EXPOSE 4444
+EXPOSE 1337

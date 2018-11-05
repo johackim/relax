@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "orderId": {
+      "default": "",
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "estimateDate": {
+      "default": "",
+      "type": "date"
+    },
+    "progress": {
+      "default": 0,
+      "max": 100,
+      "type": "integer"
+    }
+  }
+}
